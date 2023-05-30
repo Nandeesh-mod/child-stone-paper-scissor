@@ -1,0 +1,45 @@
+body{
+    background-color: lightblue;
+}
+
+
+.stoneimg
+{
+    width: 400px;
+}
+.paperimg{
+    width: 400px;
+}
+.scissorimg{
+    width: 400px;
+    height: 268px;
+}
+
+.result-box
+{
+    margin-top: 70px;
+    background-color: blue;
+    width: 1500px;
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+}
+
+.winning
+{
+    background-color: green;
+    height: 60px;
+    color: white;
+}
+.losing
+{
+    background-color: red;
+    color: white;
+    height: 60px;
+}
+.draw
+{
+    background-color: blue;
+    color: white;
+    height: 60px;
+}
